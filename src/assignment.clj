@@ -9,3 +9,5 @@
 (defn cube [number] (* number number number))
 
 (defn find-greatest-of-three-numbers [firstNumber secondNumber thirdNumber] (max firstNumber secondNumber thirdNumber))
+
+(defn get-average-of-three-numbers [firstNum secondNum thirdNum] (float (/ ( + firstNum secondNum thirdNum) 3)))
