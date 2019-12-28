@@ -11,3 +11,7 @@
 (defn find-greatest-of-three-numbers [firstNumber secondNumber thirdNumber] (max firstNumber secondNumber thirdNumber))
 
 (defn get-average-of-three-numbers [firstNum secondNum thirdNum] (float (/ ( + firstNum secondNum thirdNum) 3)))
+
+(defn sum-of-n-numbers [limit] (/ (* limit (inc limit)) 2))
+
+(println (sum-of-n-numbers 100))
