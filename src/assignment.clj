@@ -7,3 +7,5 @@
 (defn square [number] (* number number))
 
 (defn cube [number] (* number number number))
+
+(defn find-greatest-of-three-numbers [firstNumber secondNumber thirdNumber] (max firstNumber secondNumber thirdNumber))
