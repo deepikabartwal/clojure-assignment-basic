@@ -5,3 +5,5 @@
 (defn is-odd? [number] (not (is-even number)))
 
 (defn square [number] (* number number))
+
+(defn cube [number] (* number number number))
