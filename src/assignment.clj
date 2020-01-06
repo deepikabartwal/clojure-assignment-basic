@@ -29,4 +29,9 @@
 (defn calculate-simple-interest [principle rate time-period] (/ (* principle rate time-period) 100))
 
 (defn calculate-compound-interest [principle rate time-period] (- (* principle (Math/pow (+ 1 (/ rate 100)) time-period)) principle))
+
+(defn convert-fahrenheit-to-celsius [temperature-in-fahrenheit] (* (- temperature-in-fahrenheit 32) (/ 5 9.0)) )
+
+(defn convert-celsius-to-fahrenheit [temperature-in-celsius] (+ (* temperature-in-celsius (/ 9 5.0)) 32))
+
 (println (sum-of-n-numbers 100))
